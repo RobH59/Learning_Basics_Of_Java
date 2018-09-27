@@ -1,9 +1,8 @@
 
-
 import java.io.*;
 import java.util.Scanner;
 
-public class ABParser2 {
+public class ABParser {
     public static void main(String[] args) {
         char next_character;
         Token[] arrayTokens = new Token[100]; // Could also use an ArrayList for dynamically sized array
@@ -33,6 +32,5 @@ public class ABParser2 {
         for(int i = 0; i< arrayPosition; i++) {
            arrayTokens[i].print();
         }
-        
     }    
 }
