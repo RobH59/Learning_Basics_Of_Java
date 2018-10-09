@@ -1,12 +1,20 @@
 package languagex;
 
+/*  A NumToken is used to represent an integer number in Java, such as 321 */
+
 public class NumToken extends Token {
     private int intValue;
     
     public NumToken(int value) {
-        super(TokenType.NUM);
+        super(TokenType.NUM); // Call the constructor for the superclass (Token)
         intValue = value;
     }
     
-	// Write a get/set method and a print function for this class 
+    public int getValue() {
+        return intValue;
+    }
+    
+    public void print() {
+        System.out.println("Number Token: " + intValue);
+    }
 }
