@@ -24,5 +24,4 @@ public class PersonLinkedList {
 		//this.next.link(newNext);	
 		
 	}
-
 }
